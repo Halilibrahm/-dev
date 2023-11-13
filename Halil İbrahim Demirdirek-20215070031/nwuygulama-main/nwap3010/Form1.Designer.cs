@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnspara = new Button();
+            btnspsil = new Button();
+            btnspnkaydet = new Button();
             nupbirimfiyat = new NumericUpDown();
             cmbtedarik = new ComboBox();
             label5 = new Label();
@@ -51,6 +54,9 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnspara);
+            panel1.Controls.Add(btnspsil);
+            panel1.Controls.Add(btnspnkaydet);
             panel1.Controls.Add(nupbirimfiyat);
             panel1.Controls.Add(cmbtedarik);
             panel1.Controls.Add(label5);
@@ -69,8 +75,41 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(985, 236);
+            panel1.Size = new Size(1247, 236);
             panel1.TabIndex = 1;
+            // 
+            // btnspara
+            // 
+            btnspara.Location = new Point(717, 154);
+            btnspara.Margin = new Padding(3, 4, 3, 4);
+            btnspara.Name = "btnspara";
+            btnspara.Size = new Size(129, 59);
+            btnspara.TabIndex = 8;
+            btnspara.Text = "Procedure Ara";
+            btnspara.UseVisualStyleBackColor = true;
+            btnspara.Click += btnspara_Click;
+            // 
+            // btnspsil
+            // 
+            btnspsil.Location = new Point(717, 80);
+            btnspsil.Margin = new Padding(3, 4, 3, 4);
+            btnspsil.Name = "btnspsil";
+            btnspsil.Size = new Size(129, 66);
+            btnspsil.TabIndex = 7;
+            btnspsil.Text = "Procedure Sil";
+            btnspsil.UseVisualStyleBackColor = true;
+            btnspsil.Click += btnspsil_Click;
+            // 
+            // btnspnkaydet
+            // 
+            btnspnkaydet.Location = new Point(717, 15);
+            btnspnkaydet.Margin = new Padding(3, 4, 3, 4);
+            btnspnkaydet.Name = "btnspnkaydet";
+            btnspnkaydet.Size = new Size(129, 61);
+            btnspnkaydet.TabIndex = 6;
+            btnspnkaydet.Text = "Procedur Kaydet";
+            btnspnkaydet.UseVisualStyleBackColor = true;
+            btnspnkaydet.Click += btnspnkaydet_Click;
             // 
             // nupbirimfiyat
             // 
@@ -169,6 +208,7 @@
             btnguncel.TabIndex = 1;
             btnguncel.Text = "Güncelle";
             btnguncel.UseVisualStyleBackColor = true;
+            btnguncel.Click += btnguncel_Click;
             // 
             // btnbul
             // 
@@ -212,14 +252,14 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(985, 669);
+            dataGridView1.Size = new Size(1247, 669);
             dataGridView1.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(985, 905);
+            ClientSize = new Size(1247, 905);
             Controls.Add(dataGridView1);
             Controls.Add(panel1);
             Margin = new Padding(3, 4, 3, 4);
@@ -251,5 +291,8 @@
         private Button btnguncel;
         private Button btnbul;
         private Button btnsil;
+        private Button btnspara;
+        private Button btnspsil;
+        private Button btnspnkaydet;
     }
 }

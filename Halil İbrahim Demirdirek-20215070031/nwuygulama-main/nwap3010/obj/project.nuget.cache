@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9KPxAAYfmLOrggE1yQ47s6Un9DPAVCEmttm+yCZLbfq5LYUEKv2HdvbEVl0xt5aHyIa49lf4wJbRQV5ORouVcA==",
+  "dgSpecHash": "OkxXy95KBJJw65C/J6kdIidFN5iJRzsrtnI0lhxSP3JDeCMXgao71h3faP05XmoJt9sJcdx9h7AF6dxNYrDfeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Krsyk\\Desktop\\nwuygulama-main\\nwuygulama-main\\nwap3010\\nwap3010.csproj",
+  "projectFilePath": "C:\\Users\\Krsyk\\Downloads\\-dev-main\\-dev-main\\Halil İbrahim Demirdirek-20215070031\\nwuygulama-main\\nwap3010\\nwap3010.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krsyk\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Krsyk\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
